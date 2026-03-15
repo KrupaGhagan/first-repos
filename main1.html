@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students - Main</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            height: 100px;
+            background-color: #432818;
+            color: white;
+            text-align: center;
+        }
+        .redcap{
+            color: red;
+            font-size: 3rem;
+        }
+        header h2{
+            padding-top: 20px;
+            font-size: 2rem;
+        }
+        .container{
+            height: 100vh;
+            margin: 20px;
+            box-shadow: 6px 6px 10px gray, -6px -6px 10px gray;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background-color: #faedcd;
+        }
+        .box{
+            background-color: #d4a373;
+            height: 300px;
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 4px 4px 10px #432818, -4px -4px 10px #432818;
+        }
+        .icon{
+            height: 50%;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+        .caption{
+            font-size: 1.5rem;
+            color: #333;
+            font-weight: bold;
+        }
+        .box:hover{
+            cursor: pointer;
+            transform: translateY(-10px);
+        }
+
+    </style>
+</head>
+<body>
+     <header>
+        <h2><span class="redcap">S</span>tudent <span class="redcap">P</span>ortal</h2>
+     </header>
+     <div class="container">
+        <div class="box">
+            <img class="icon" src="./images/add student icon.png" alt="addStudent">
+            <p><span class="caption">Add Student</span></p>
+        </div>
+        <a href="powerbi.html"><div class="box">
+            <img class="icon" src="./images/students icon.png" alt="students">
+            <p><span class="caption">View Students Report</span></p>
+        </div></a>
+        <div class="box">
+            <img class="icon" src="./images/star icon.png" alt="Achievments">
+            <p><span class="caption">Student Achievments</span></p>
+        </div>
+     </div>
+</body>
+</html>

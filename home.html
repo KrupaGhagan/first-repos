@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students-Home</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #030f36;
+        }
+        header{
+            height: 100px;
+            background-color: #d4a373;
+            text-align: center;
+        }
+        header h1{
+            padding-top: 15px;
+            font-size: 2.5em;
+        }
+        .big{
+            font-size: 1.5em;
+        }
+        .con{
+            background: transparent;
+            border: 3px solid white;
+            box-shadow: 8px 8px 5px rgb(164, 220, 248);
+            margin: 8% 0 0 37%;
+            height: 400px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            border-radius: 16px;
+        }
+
+        .element{
+            padding: 30px 0;
+            background-color: #d4a373;
+            text-align: center;
+            color: #333;
+            box-shadow: 8px 8px 10px gray , -8px -8px 10px gray;
+            border-radius: 12px;
+            width: 250px;
+        }
+        .element:hover{
+            cursor: pointer;
+            background-color: #fefae0;
+            color: black;
+        }
+        
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span class="big">S</span>tudent <span class="big">P</span>ortal</h1>
+    </header>
+    <div class="con">
+        <a href="main1.html"><div class="element">
+            <h2>Educators</h2>
+        </div></a>
+        <a href="studentlogin.html"><div class="element">
+            <h2>Students</h2>
+        </div></a>
+    </div>
+</body>
+</html>
